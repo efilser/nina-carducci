@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photographe à Bordeaux | Nina Carducci - Moments précieux capturés</title>
-    <meta name="description" content="Nina Carducci, photographe à Bordeaux, capture les moments précieux de votre vie pour des souvenirs inoubliables. Réservez dès maintenant votre séance photo.">
-    <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="./assets/style.css">
+
+    <title>Nina Carducci | Photographe à Bordeaux</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
+    <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
+    <link rel="preload" href="./assets/style.css" as="style">
+
+    <link rel="canonical" href="https://efilser.github.io/nina-carducci">
+    <meta name="description" content="Nina Carducci, photographe à Bordeaux, capture les moments précieux de votre vie pour des souvenirs inoubliables. Réservez dès maintenant votre séance photo.">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Nina Carducci | Photographe à Bordeaux">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://efilser.github.io/nina-carducci">
+    <meta property="og:description" content="Nina Carducci, photographe à Bordeaux, capture les moments précieux de votre vie pour des souvenirs inoubliables. Réservez dès maintenant votre séance photo.">
+    <meta property="og:image" content="https://efilser.github.io/nina-carducci/assets/images/nina.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-<header class="top-header">
+<nav class="top-header">
     <h1 class="name">Nina Carducci</h1>
-    <nav class="nav">
-        <ul>
+        <ul class="nav">
             <li><a href="#about">À propos</a></li>
             <li><a href="#gallery">Galerie</a></li>
             <li><a href="#services">Service</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
         </ul>
-    </nav>
-</header>
+</nav>
 
-<div id="header">
+<header id="header">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -57,7 +64,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</div>
+</header>
 
 <section id="about">
     <div class="picture left">
@@ -65,7 +72,7 @@
     </div>
     <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
-        <h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+        <p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
         <p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
             C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
     </div>
@@ -74,7 +81,7 @@
 <section id="gallery">
     <h2 class="title">Portfolio</h2>
     <div class="container py-3">
-        <div class="gallery" style="display: none">
+        <div class="gallery">
             <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
             <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"/>
             <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"/>
@@ -161,5 +168,9 @@
         </div>
     </div>
 </section>
+<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./assets/maugallery.js"></script>
+<script src="./assets/scripts.js"></script>
 </body>
 </html>
