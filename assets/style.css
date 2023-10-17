@@ -22,7 +22,7 @@ body {
   font-size: 26px;
 }
 
-.nav ul {
+.nav {
   display: flex;
   list-style-type: none;
   font-size: 14px;
@@ -84,14 +84,15 @@ body {
   font-weight: 800;
   font-style: italic;
   width: 60%;
+  line-height: 1.2;
 }
-#about-me p {
+.about-me__content {
   width: 80%;
   font-size: 14px;
 }
 
 #gallery {
-  /*  min-height: 100vh; */
+  min-height: 100vh;
 }
 
 .gallery {
@@ -101,6 +102,7 @@ body {
 .title{
   text-align: center;
   padding-block: 2em;
+  font-size: 1.75rem;
 }
 .gallery .nav {
   justify-content: center;
@@ -152,7 +154,8 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
-
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 .quote__author {
   font-family: Spectral;
@@ -260,7 +263,7 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h6, #about-me p {
+  #about-me p {
     width: 100%;
   }
 }
